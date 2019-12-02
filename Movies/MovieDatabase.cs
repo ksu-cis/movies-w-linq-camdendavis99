@@ -14,7 +14,7 @@ namespace Movies
     {
         private static List<Movie> movies;
 
-        public static List<Movie> All {
+        public static IEnumerable<Movie> All {
             get {
                 if (movies == null)
                 {
